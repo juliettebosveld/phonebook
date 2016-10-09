@@ -22,17 +22,19 @@
 		</dependency>
 
 		<dependency>
-			<groupId>javax.faces</groupId>
-			<artifactId>jsf-api</artifactId>
-			<version>1.2_15</version>
+      		<groupId>org.mockito</groupId>
+      		<artifactId>mockito-all</artifactId>
+      		<version>1.10.19</version>
+      		<scope>test</scope>
 		</dependency>
-
+		
 		<dependency>
-			<groupId>javax.faces</groupId>
-			<artifactId>jsf-impl</artifactId>
-			<version>1.2_15</version>
+      		<groupId>org.mockito</groupId>
+      		<artifactId>mockito-core</artifactId>
+      		<version>1.10.19</version>
+      		<scope>test</scope>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>

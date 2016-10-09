@@ -21,17 +21,17 @@ public class Contact {
 	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	public Long id;
+	private Long id;
 
 	/**
 	 * name of the contact
 	 */
-	public String name; 
+	private String name; 
 
 	/**
 	 * number of the contact
 	 */
-	public String number;
+	private String number;
 	
 	/**
 	 * default constructor needed for Hibernate
@@ -42,7 +42,7 @@ public class Contact {
 	/**
 	 * Constructor for creating a contact
 	 * @param name name of the contact
-	 * @param number nuber of the contact
+	 * @param number number of the contact
 	 */
 	public Contact(String name, String number) {
 		this.name = name;
